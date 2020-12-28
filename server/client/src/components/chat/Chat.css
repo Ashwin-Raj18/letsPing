@@ -1,0 +1,22 @@
+/* Chat Page */
+
+.chat-container {
+	width: 80%;
+	background: #fff;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
+.chat-main {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+}
+
+@media (max-width: 700px) {
+	.chat-main {
+		display: block;
+	}
+	.chat-container {
+		width: 100%;
+	}
+}

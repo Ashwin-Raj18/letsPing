@@ -1,0 +1,36 @@
+.chat-form-container {
+	padding: 20px 30px;
+	background-color: rgb(140, 140, 233);
+}
+
+.chat-form-container form {
+	display: flex;
+	margin-left: 16rem;
+}
+
+.chat-form-container input[type='text'] {
+	font-size: 16px;
+	padding: 10px;
+	height: 40px;
+	flex: 1 1;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	margin-right: 10px;
+}
+.btn > i {
+	margin-right: 5px;
+}
+
+@media screen and (max-width: 900px) {
+	.chat-form-container {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+	}
+	.chat-form-container form {
+		margin-left: 0rem;
+	}
+	.chat-form-container input[type='text'] {
+		height: auto;
+	}
+}
